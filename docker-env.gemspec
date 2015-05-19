@@ -8,9 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Docker::Env::VERSION
   spec.authors       = ["Jakub Głuszecki"]
   spec.email         = ["jakub.gluszecki@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Utility for running dockerized apps outside of docker container}
+  spec.homepage      = "https://github.com/cthulhu666/docker-env"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
