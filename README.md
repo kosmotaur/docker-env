@@ -78,7 +78,7 @@ When installed in your Gemfile, docker-env will create a subset of these variabl
 
 Add this line to your application's Gemfile:
 
-    gem 'docker-env', group: :development
+    gem 'docker-env', group: :development, github: 'cthulhu666/docker-env'
 
 And then execute:
 
