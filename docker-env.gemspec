@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'docker/dev/version'
+require 'docker/env/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "docker-dev"
-  spec.version       = Docker::Dev::VERSION
+  spec.name          = "docker-env"
+  spec.version       = Docker::Env::VERSION
   spec.authors       = ["Jakub Głuszecki"]
   spec.email         = ["jakub.gluszecki@gmail.com"]
   spec.summary       = %q{TODO: Write a short summary. Required.}
@@ -23,3 +23,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
 end
+

@@ -1,8 +1,8 @@
-require "docker/dev/version"
+require "docker/env/version"
 require "docker"
 
 module Docker
-  module Dev
+  module Env
 
     def self.set_env
 
@@ -28,7 +28,7 @@ module Docker
 
     class Railtie < ::Rails::Railtie
       config.before_initialize do
-        Docker::Dev::set_env()
+        Docker::Env::set_env()
       end
     end
 

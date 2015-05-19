@@ -1,5 +1,6 @@
 module Docker
-  module Dev
+  module Env
     VERSION = "0.0.1"
   end
 end
+
